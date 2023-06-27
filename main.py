@@ -8,7 +8,7 @@ class Grafo:
         self.grafo = grafo  # grafo residual
         self.linha = len(grafo)
  
-    '''Retorna true se tiver um caminho da fonte 's' para o sumidouro 't' no grafo residual antecessores[] para guardar o  caminho '''
+    '''Retorna true se tiver um caminho da fonte 's' para o sumidouro 't' no grafo residual. Também adiciona os antecessores[] para guardar o  caminho '''
  
     def BFS(self, s, t, antecessores):
  
